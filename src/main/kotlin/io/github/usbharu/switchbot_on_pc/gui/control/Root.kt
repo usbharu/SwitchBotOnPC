@@ -1,13 +1,12 @@
 package io.github.usbharu.switchbot_on_pc.gui.control
 
-import getToken
+import io.github.usbharu.switchbot_on_pc.getToken
 import io.github.usbharu.switchbot_on_pc.gui.view.DeviceControlView
-import io.github.usbharu.switchbot_on_pc.gui.view.DevicesView
 import io.github.usbharu.switchbot_on_pc.gui.view.RootView
 import java.awt.BorderLayout
 import java.io.FileWriter
 import java.nio.file.Paths
-import java.util.Properties
+import java.util.*
 import javax.swing.JLabel
 import javax.swing.JOptionPane
 import javax.swing.JPanel

@@ -1,14 +1,9 @@
 package io.github.usbharu.switchbot_on_pc.gui.control
 
-import getRoot
-import getToken
+import io.github.usbharu.switchbot_on_pc.getRoot
+import io.github.usbharu.switchbot_on_pc.getToken
 import io.github.usbharu.switchbot_on_pc.api.SwitchBot
 import io.github.usbharu.switchbot_on_pc.gui.view.DevicesView
-import setContentPane
-import java.nio.charset.StandardCharsets
-import java.nio.file.Files
-import java.nio.file.Paths
-import java.util.Properties
 import javax.swing.JButton
 
 class Devices {
